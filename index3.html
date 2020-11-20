@@ -1,0 +1,31 @@
+<html>
+<title>вопросик</title>
+<head>
+    <link rel="stylesheet" href="css/style.css">  
+<script language="JavaScript" type="text/JavaScript">
+    
+function hello() {
+    var id;
+    id=window.open("","example","width=400, height=450");
+    id.focus();
+    id.document.open();
+    id.document.write("<img src='img/1.jpg'>");
+    id.document.write("<h1><form color='olive' face='Lucida Console' size='5'>Да,это правда!</form></h1>");
+    
+    id.document.write("<input type='button' value='Закрыть окно' onclick='window.close();'> </form>");
+    id.document.close();
+}
+</script>
+</head>
+<body>
+    <style>
+        .button21{
+            text-align: center;
+        }
+    </style>
+<div class="box">
+    <button class="button21"onclick="hello();">Даша хотела поступить в МВД?</button><br /><br />
+ </div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+.button21 {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fe6637;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif; 
+  color: #fe6637;
+  transition: .2s ease-in-out;
+ background: white;
+}
+.button21:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -16px;
+  left: -75px;
+  transform: skewX(-45deg);
+}
+.button21:hover {
+  background: #fe6637;
+  color: #fff;
+}
+.button21:hover:before {
+  left: 350px;
+  transition: .5s ease-in-out;
+}
+body{
+    background-image: url(fon.jpg);
+    background-size: 100%;
+}
+.space 
+            {   padding: 20px; 
+                height: 280px;
+                width: 300px;
+                background-color: #ffd49b;
+                border: double;
+                margin: 15px;
+                display: inline-block;
+                text-align: center;
+                
+            }
+         
+            .box{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+
